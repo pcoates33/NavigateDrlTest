@@ -1,0 +1,20 @@
+<idea-plugin>
+    <id>com.pcoates33.NavigateDrlTest</id>
+    <name>Navigate between drl file and test class</name>
+    <vendor email="pcoates33@gmail.com" url="https://github.com/pcoates33">Pete Coates</vendor>
+
+    <description><![CDATA[
+    Adds 'Navigate - Test' (Ctrl + Shift + T) between drl files and test classes. Tests need to be annotated with DrlTest.
+    ]]></description>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+
+    <depends>com.intellij.modules.java</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <gotoDeclarationHandler implementation="com.pcoates33.DrlFileGotoDeclarationHandler"/>
+        <testFinder implementation="com.pcoates33.DrlTestFinder"/>
+    </extensions>
+
+</idea-plugin>
