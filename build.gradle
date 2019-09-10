@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'com.pcoates33'
-version '2019-09-02'
+version '2019-09-10'
 
 sourceCompatibility = 1.8
 
@@ -21,6 +21,7 @@ intellij {
     version '2019.2'
     plugins 'java'
     // Set alternativeIdePath to local instance of intellij otherwise community edition gets downloaded.
+    // Not worked out what this should be on a mac
     // alternativeIdePath '/home/...'
 }
 patchPluginXml {
