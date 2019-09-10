@@ -1,10 +1,15 @@
-<idea-plugin>
+<idea-plugin url="https://github.com/pcoates33/NavigateDrlTest">
     <id>com.pcoates33.NavigateDrlTest</id>
     <name>Navigate between drl file and test class</name>
-    <vendor email="pcoates33@gmail.com" url="https://github.com/pcoates33">Pete Coates</vendor>
+    <vendor email="pcoates33@gmail.com" url="https://github.com/pcoates33/NavigateDrlTest">Pete Coates</vendor>
+    <version>2019-09-02</version>
 
     <description><![CDATA[
-    Adds 'Navigate - Test' (Ctrl + Shift + T) between drl files and test classes. Tests need to be annotated with DrlTest.
+    <a href="https://github.com/pcoates33/NavigateDrlTest">Source code on github</a>
+    <ul>
+    <li>Adds 'Navigate - Declaration' (Ctrl+Click or Ctrl+B) for json files in integration tests</li>
+    <li>Adds 'Navigate - Test' (Ctrl+Shift+T) between drl files and test classes. Tests need to be annotated with DrlTest</li>
+    </ul>
     ]]></description>
 
     <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
