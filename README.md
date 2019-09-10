@@ -1,5 +1,7 @@
 # NavigateDrlTest
-Intellij plugin to navigate between drl files and tests annotated with DrlTest.
+Intellij plugin to:
+ - navigate to expected.json files from integration tests
+ - navigate between drl files and tests annotated with DrlTest.
 
 Run gradle task buildPlugin to build a jar that you can then install from settings - plugins.
 

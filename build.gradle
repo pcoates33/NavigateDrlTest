@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'com.pcoates33'
-version '2019-08-31'
+version '2019-09-02'
 
 sourceCompatibility = 1.8
 
